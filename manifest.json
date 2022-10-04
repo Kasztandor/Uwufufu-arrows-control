@@ -1,7 +1,6 @@
 {
-
     "manifest_version": 2,
-    "name": "Borderify",
+    "name": "Uwufufu arrow control",
     "version": "1.2",
   
     "description": "Adding possibility to select with using arrow keys",
@@ -12,10 +11,9 @@
   
     "content_scripts": [
       {
-        "matches": ["*://*.uwufufu.com/*"],
+        "matches": ["https://*.uwufufu.com/*"],
         "js": ["script.js"]
       }
     ]
-  
-  }
+}
   
